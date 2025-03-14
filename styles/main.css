@@ -1,0 +1,251 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.horizontal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    padding: 50px;
+}
+
+.topnav{padding: 16px 70px 8px 70px;
+}
+
+.greyText{
+    font-size: 16px;
+    color: grey;
+    font-weight: 600;
+}
+
+.contactinfo{
+    margin-right: 24px;
+    padding-right: 28px;
+    border-right:2px solid lightgray;
+}
+
+.contactinfo span{
+    color: rgb(123, 198, 10);
+}
+
+#remove{
+    border: none !important;
+}
+
+.brandlogo span{
+    color: white;
+    background-color: rgb(123, 198, 10);
+    border: none;
+    font-weight: 800;
+    padding: 6px;
+}
+
+.navitem{
+    list-style: none;
+    padding: 16px 18px;
+    align-items: center;
+}
+
+.navitem a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.navitem a:hover {
+    color: white;
+    background-color: rgb(123, 198, 10);
+}
+
+#appointment {
+    background-color: rgb(123, 198, 10);
+    color: white !important
+}
+#home {
+    background:rgba(0, 0, 0, 0.151) url(../images/slider3.jpg);
+    width:1500px;
+    height: 500px;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.home {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.text1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: white;   
+}
+
+.text2 {
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+}
+
+.text3 {
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    background-color: rgb(66, 66, 159);
+    margin-top: 25px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+}
+
+#about {
+    background-image: url(../images/about-bg.jpg);
+    background-size: cover;
+    height: 700px;
+    width: 1500px;
+    text-align: left;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+}
+
+.abouttext1 {
+    font-size: 50px;
+    font-weight: 800;
+    color: black;
+    padding-right: 800px;
+    padding-left: 50px;
+}
+
+.abouttext1 span {
+    font-size: 50px;
+    font-weight: 800;
+    background-color:black ;
+    color: white;
+    padding: 0px 6px 0px 6px;
+}
+
+#lorem {
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    margin-top: 25px;
+    padding-right: 1000px;  
+    padding-left: 50px;
+}
+
+#lorem2 {
+    font-size: 15px;
+    color: black;
+}
+
+#lorem3{
+    font-size: 30px;
+    color: black;
+}
+.neil-jackson {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.neil-jackson img {
+    width: 70px;
+    height: 70px;
+    border-radius: 30px;
+}
+.neil {
+    margin-left: 20px;
+}
+
+.doctor {
+    display: flex;
+    margin-left: 50px;
+}
+.mini{
+    width: 350px;
+    margin-left: 40px;
+    background-color: rgba(138, 135, 135, 0.164);
+    border-radius: 2%;
+}
+.mini img {
+    width: 100%;
+}
+
+.doctor1 {
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: 450;
+}
+
+#Nate {
+    align-items: center;
+    font-size: 25px;
+    margin-left: 20px;
+   font-weight: 450;
+}
+#general {
+    font-size: 16px;
+    color: grey;
+    font-weight: 600;
+    margin-left: 20px;
+    padding-bottom: 30px;
+}
+
+#tel{
+    font-size: 16px;
+    color: grey;
+    font-weight: 600;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+
+#mail {
+    font-size: 16px;
+    color: grey;
+    font-weight: 600;
+    margin-left: 20px;
+    padding-top: 7px;
+}
+
+.news{
+    display: flex;
+    justify-content: space-between;
+}
+
+#news {
+    width:400px;
+}
+#news #ii {
+    width: 100%;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-left: px;
+    margin-top: 50px;
+}
+
+.author img{
+   width: 70px;
+    height: 70px;
+    border-radius: 30px;
+}
+#hhh{
+    padding: 20px;
+}
+#aut {
+    margin-left: 20px
+
+
+/* mobile styling  */
+@media only screen and (max-width: 768px){
+    body{ 
+        background-color: blue;
+    }   
+}

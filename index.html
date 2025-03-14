@@ -6,30 +6,35 @@
         <title>E-health: Innovative health care solution</title>
         <script src="https://kit.fontawesome.com/e689dc126a.js" crossorigin="anonymous"></script>
         <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/x-icon">
+        <link rel="stylesheet" href="./styles/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <!-- google font link  -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
         <!-- header section -->
          <header>
-              <div>
-                 <h1>Welcome to E-Health Care Solution</h1>
+              <div class="horizontal topnav">
+                 <h1 class="greyText">  Welcome to E-Health Care Solution</h1>
          
-                  <div>
-                     <p><span><i class="fa-solid fa-phone"></i></span>+2348149127795</p>
-                     <p><Span><i class="fa-solid fa-calendar-days"></i></Span>6:00am - 10:00pm (Mon - Fri)</p>
-                     <p><span><i class="fa-solid fa-envelope"></i></span>info@health.com</p>
+                  <div class="horizontal greyText">
+                     <p class="contactinfo"><span><i class="fa-solid fa-phone"></i></span>+2348149127795</p>
+                     <p class="contactinfo"><Span><i class="fa-solid fa-calendar-days"></i></Span>6:00am - 10:00pm (Mon - Fri)</p>
+                     <p id="remove" class="contactinfo"><span><i class="fa-solid fa-envelope"></i></span>info@health.com</p>
                   </div>
               </div>
-              <nav>
-                <h3>E-Health</h3>
+              <nav class="horizontal topnav">
+                <h3 class="brandlogo"><span>H</span>ealth Center</h3>
 
                 <!-- nav menu item -->
-                 <ul>
-                    <li><a href="#home">Home</a></a></li>
-                    <li><a href="#about us">About Us</a></li>
-                    <li><a href="#doctors">Doctors</a></li>
-                    <li><a href="#news">News</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#appointment">Make an Appointment</a></li>
+                 <ul class="horizontal">
+                    <li class="navitem"><a href="#home">Home</a></a></li>
+                    <li class="navitem"><a href="#about us">About Us</a></li>
+                    <li class="navitem"><a href="#doctors">Doctors</a></li>
+                    <li class="navitem"><a href="#news">News</a></li>
+                    <li class="navitem"><a href="#contact">Contact</a></li>
+                    <li id="appointment" class="navitem"><a href="#appointment">Make an Appointment</a></li>
                  </ul>
               </nav>
              
@@ -39,124 +44,144 @@
           <main>
             <!-- home section -->
              <section id="home">
-                <div>
-                    <p>Best Health Care Solution</p>
-                    <p>Health Care At Your Door Step</p>
-                    <button>Learn More</button>
+                <div class="home">
+                    <p class="text2">Best Health Care Solution</p>
+                    <p class="text1">Health Care At Your Door Step</p>
+                    <button class="text3">Learn More</button>
                   </div>
              </section>
              <!-- about us section -->
               <section id="about">
                 <!-- left part  -->
                 <div>
-                    <h2>Welcome to your E-health center</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, quasi! Dignissimos delectus earum amet maxime quas repellat voluptatibus aliquid iure, laborum maiores temporibus, perferendis reprehenderit. Totam, aperiam? Est, nesciunt culpa!</p>
+                    <h2 class="abouttext1">Welcome to your <span>H</span>ealth center</h2>
+                <p id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, quasi! Dignissimos delectus earum amet maxime quas repellat voluptatibus aliquid iure, laborum maiores temporibus, perferendis reprehenderit. Totam, aperiam? Est, nesciunt culpa!</p>
                 <div>
-                    <img src="images/images 2/author-image.jpg" alt="">
-                    <div>
-                      <h3>Dr. Neil Jackson</h3>
-                        <p>General principal</p>
+                    <div class="neil-jackson">
+                      <img src="images/author-image.jpg" alt="">
+                      <div class="neil">
+                        <h3 id="lorem3">Dr. Neil Jackson</h3>
+                      <p id="lorem2">General principal</p>
+                      </div>
+                      
                     </div>
+                    
                 </div>
             </div>
             
             <!-- right part  -->
-             <div>
-                <img src="images/images 2/about-bg.jpg" alt="picture"width= "800px">
-             </div>
+            
               </section>
               <!-- doctor section -->
                <section id="doctor">
-                <h2>Our Doctors</h2>
-                <div>
+                <h2 class="doctor1">Our Doctors</h2>
+                <div class="doctor">
                     <!-- Nate Baston  -->
-                    <div>
-                        <img src="images/images 2/team-image1.jpg" alt="our doctor">
+                    <div class="mini">
+                        <img src="./images/team-image1.jpg" alt="our doctor">
                         <div>
-                            <h3>Nate Baston</h3>
-                            <p>General principal</p>
+                            <h3 id="Nate">Nate Baston</h3>
+                            <p id="general">General principal</p>
                             <hr>
-                            <p><span><i class="fa-solid fa-phone"></i></span>+2348149127795</p>
-                            <p><span><i class="fa-solid fa-envelope"></i></span>general@company.com</p>
+                            <p id="tel"><span><i class="fa-solid fa-phone"></i></span>+2348149127795</p>
+                            <p  id="mail"><span><i class="fa-solid fa-envelope"></i></span>general@company.com</p>
                         </div>
-                        <div>
+                    </div>    
+                        <div class="mini">
                             <!-- Jason stewart  -->
-                            <img src="images/images 2/news-image2.jpg" alt="our picture">
+                            <img src="./images/team-image2.jpg" alt="our picture">
                             <div>
-                                <h3>Jason Stewart</h3>
-                                <p>Pregnancy</p>
+                                <h3 id="Nate">Jason Stewart</h3>
+                                <p id="general">Pregnancy</p>
                                 <hr>
-                                <p><span><i class="fa-solid fa-phone"></i></span>+2348149127795</p>
-                                <p><span><i class="fa-solid fa-envelope"></i></span>pregnancy@company.com</p>
-                                <div>
-                                    <!-- Miasha Nakahara  -->
-                                    <img src="images/images 2/team-image3.jpg" alt="our picture">
-                                    <div>
-                                        <h3>Miasha Nakahara</h3>
-                                        <p>Cardiology</p>
-                                        <hr>
-                                        <p><span><i class="fa-solid fa-phone"></i></span>+2348149127795</p>
-                                        <p><span><i class="fa-solid fa-envelope"></i></span>cardio@company.com</p>
-                                    </div>
-                                </div>
-
-
+                                <p id="tel"><span><i class="fa-solid fa-phone"></i></span>+2348149127795</p>
+                                <p id="mail"><span><i class="fa-solid fa-envelope"></i></span>pregnancy@company.com</p>
                             </div>
                         </div>
+                                <div class="mini">
+                                    <!-- Miasha Nakahara  -->
+                                    <img src="./images/team-image3.jpg" alt="our picture">
+                                    <div>
+                                        <h3 id="Nate">Miasha Nakahara</h3>
+                                        <p id="general">Cardiology</p>
+                                        <hr>
+                                        <p id="tel"><span><i class="fa-solid fa-phone"></i></span>+2348149127795</p>
+                                        <p id="mail"><span><i class="fa-solid fa-envelope"></i></span>cardio@company.com</p>
+                                    </div>
+                                </div>
                     </div>
                 </div>
                </section>
                <!-- news section -->
-                <section id="news">
-                    <h2>Latest News</h2>
-                    <div>
-                        <div>
-                            <!-- Jeremie Carlson  -->
-                            <img src="images/images 2/news-image1.jpg" alt="">
-                            <div> <p>March 08, 2018</p>
-                                <h3>About Amazing Technology</h3>
-                               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ad soluta temporibus quasi reiciendis labore iure expedita voluptatum laudantium a voluptatem dicta dolor illum maxime nisi architecto, aspernatur, molestiae molestias?</p> 
-                               <hr>
-                               <img src="images/images 2/author-image.jpg" alt="">
-                               <h3>Jeremie Carlson</h3>
-                               <p>CEO/Founder</p>
-                            </div>
-                            <div>
+               <section >
+                <h2>Latest News</h2>
+                <div class="news"> 
+                     <!-- Jeremie Carlson  -->
+                        <div id="news">
+                             <img id="ii" src="images/news-image1.jpg" alt="">
+                             <div id="hhh">
+                                <div> <p id="mail">March 08, 2018</p>
+                                    <h3 id="Nate">About Amazing Technology</h3>
+                                   <p id="mail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ad soluta temporibus quasi reiciendis labore iure expedita voluptatum laudantium a voluptatem dicta dolor illum maxime nisi architecto, aspernatur, molestiae molestias?</p> 
+                                   <hr>
+                                </div>
+                                <div class="author">
+                                   <img src="images/author-image.jpg" alt="">
+                                   <div id="aut">
+                                        <h3>Jeremie Carlson</h3>
+                                        <p>Cardiology</p>
+                                   </div>
+                                </div>
+                             </div>
+                        </div>
+                            <div id="news">
                                 <!-- jason stewart  -->
-                                 <img src="images/images 2/team-image2.jpg" alt="">
-                                 <div>
-                                    <p>February 20, 2018</p>
-                                    <h3>Intorducing a new healing process</h3>
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, impedit iusto, voluptatum omnis nam, neque repellendus unde tempora vero tempore magnam! Amet eligendi consequuntur facilis ex asperiores, minus reprehenderit voluptas!</p>
-                                    <hr>
-                                    <img src="images/images 2/author-image.jpg" alt="">
-                                    <h3>Jason stewart</h3>
-                                    <p>General Director</p>
-                                 </div>
-                                 <div>
-                                    <!-- Andrio Abero  -->
-                                     <img src="images/images 2/news-image3.jpg" alt="">
-                                     <div>
-                                        <p>January 27, 2018</p>
-                                        <h3>Review Annual Medical Research</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis doloribus, delectus, totam aspernatur dicta error repellat saepe accusantium porro deleniti in alias, eum dolorum quasi enim? Tempore laboriosam voluptatem sint?
-                                        </p>
+                                <img id="ii" src="images/news-image2.jpg" alt="">
+                                <div id="hhh">
+                                    <div>
+                                        <p id="mail">February 20, 2018</p>
+                                        <h3 id="Nate">Intorducing a new healing process</h3>
+                                        <p id="mail">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, impedit iusto, voluptatum omnis nam, neque repellendus unde tempora vero tempore magnam! Amet eligendi consequuntur facilis ex asperiores, minus reprehenderit voluptas!</p>
                                         <hr>
-                                        <img src="images/images 2/author-image.jpg" alt="">
-                                        <h3>Andrio Abero</h3>
-                                        <p>Online Advertising</p>
-                                     </div>
-                                 </div>
+                                    </div>
+                                    <div class="author">
+                                        <img src="images/author-image.jpg" alt="">
+                                        <div id="aut">
+                                            <h3>Jason stewart</h3>
+                                            <p>General Director</p>
+                                        </div>  
+                                    </div>
+                                </div>
+                            </div>
+                                <div id="news">
+                                    <!-- Andrio Abero  -->
+                                    <img id="ii" src="images/news-image3.jpg" alt="">
+                                    <div id="hhh">
+                                        <div>
+                                            <p id="mail">January 27, 2018</p>
+                                            <h3 id="Nate">Review Annual Medical Research</h3>
+                                            <p id="mail">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis doloribus, delectus, totam aspernatur dicta error repellat saepe accusantium porro deleniti in alias, eum dolorum quasi enim? Tempore laboriosam voluptatem sint?
+                                            </p>
+                                            <hr>
+                                        </div>
+                                        <div class="author">
+                                            <img src="images/author-image.jpg" alt="">
+                                            <div id="aut">
+                                                <h3>Andrio Abero</h3>
+                                                <p>Online Advertising</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
                             </div>
-                        </div>
-                    </div>
+                      </div>
                 </section>
                 <!-- Appointment section  -->
-                 <section id="appointment">
+                 <section id="appointment1">
                     <!-- left div  -->
                      <div>
-                        <img src="images/images 2/appointment-image.jpg" alt="appointment">
+                        <img src="images/appointment-image.jpg" alt="appointment">
                      </div>
                      <!-- right div  -->
                     <div>
